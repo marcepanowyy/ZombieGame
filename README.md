@@ -26,3 +26,14 @@ Simple zombie game created for Intruduction to Web Applications course
 - We add our score, sort, cut off the first 7 scores and save them back to the server,
 - The ranking includes position, nickname, score and date of entry,
 - There is a button to return to the new game,
+
+
+To run server:
+
+```
+npm install
+```
+
+```
+npm run start
+```
