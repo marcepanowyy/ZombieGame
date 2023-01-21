@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/101901301/213884909-1f5650c8-91d5-4e9d
 To run server:
 
 ```
-npm install
+npm install -g
 ```
 
 ```
