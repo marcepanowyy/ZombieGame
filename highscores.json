@@ -1,0 +1,40 @@
+{
+  "highscores": [
+    {
+      "id": 1,
+      "nickname": "Mariah Carey",
+      "score": "1200",
+      "date": "11/15/2022"
+    },
+    {
+      "id": 2,
+      "nickname": "Apocalypto",
+      "score": "136",
+      "date": "11/15/2022"
+    },
+    {
+      "id": 3,
+      "nickname": "Herbapect",
+      "score": "24",
+      "date": "11/15/2022"
+    },
+    {
+      "id": 4,
+      "nickname": "Ibuprom",
+      "score": "12",
+      "date": "11/15/2022"
+    },
+    {
+      "id": 5,
+      "nickname": "Jason Derulo",
+      "score": "72",
+      "date": "11/15/2022"
+    },
+    {
+      "id": 6,
+      "nickname": "Eminem",
+      "score": "96",
+      "date": "11/15/2022"
+    }
+  ]
+}

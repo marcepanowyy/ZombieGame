@@ -1,0 +1,11 @@
+{
+  "name": "zombiegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "json-server highscores.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

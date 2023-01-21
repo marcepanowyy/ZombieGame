@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('images/board-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#collisionCanvas{
+    opacity: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.set-opacity-to-zero{
+    opacity: 0;
+}
+
+.modal{
+    width: 40rem;
+    height: 25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 100;
+    border-radius: 30px;
+}
+
+.modal-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.modal-element{
+        font-size: 1.5rem;
+        padding: 1rem;
+        font-family: inherit;
+}
+
+
+.info{
+    font-size: 2.5rem;
+}
+
+.final-score{
+    font-size: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.nick-label{
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.highscore-info{
+    overflow-y: scroll;
+    width: 70%;
+    height: 12rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.highscore-list-element{
+    padding: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+input{
+    text-align: center;
+}
+
+.info-bar{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    z-index: 5;
+    position: absolute;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    top: 5%;
+}
+
+
+.life-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: 0.5s;
+    width: 30%;
+}
+
+.heart{
+    transition: 0.5s;
+    width: 5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.heart-box{
+    width: 80%;
+}
+
+
+.nickname{
+    color: white;
+    font-size: 3.5rem;
+    width: 40%;
+    transition: 0.5s;
+}
+
+.score{
+    font-size: 2.5rem;
+    transition: 0.5s;
+    width: 30%;
+}
+
+.cursor{
+    z-index: 200;
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    pointer-events: none;
+    position: absolute;
+    border: 5px solid white;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+
+.cursor::before{
+    content: '';
+    position: absolute;
+    width: 0.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #ce000f;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.highscore-highscores{
+    font-size: 2.3rem;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Zombie Game</title>
+
+    <title>JavaScript Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/f468e2bd3d.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <canvas id="canvas1"></canvas>
+    <canvas id="collisionCanvas"></canvas>
+
+    <div class="info-bar set-opacity-to-zero">
+
+        <div class="life-bar">
+
+            <div class ='heart-box'>
+
+                <img src="images/icons8-pixel-heart-96.png" class="heart heart1"/>
+                <img src="images/icons8-pixel-heart-96.png" class="heart heart2"/>
+                <img src="images/icons8-pixel-heart-96.png" class="heart heart3"/>
+
+            </div>
+
+        </div>
+
+        <div class="nickname">
+            qweqweqew
+
+        </div>
+
+        <div class="score">3123</div>
+
+
+    </div>
+
+    <div class="cursor hidden"></div>
+
+
+    <div class="modal modal1">
+
+        <div class="modal-content">
+
+                <label for="nick-input" class="modal-element nick-label">Input your nickname!</label>
+                <input class="nick modal-element" id="nick-input" required placeholder="No-name">
+                <button type='submit' class="play modal-element">Start game!</button>
+
+        </div>
+
+
+    </div>
+
+    <div class="modal modal2 hidden">
+
+        <div class="modal-content">
+
+            <div class="info modal-element">Game over!</div>
+            <span class="final-score modal-element">Your score is score</span>
+            <button class="reset modal-element">Play again!</button>
+            <button class="highscores modal-element">Highscores</button>
+
+
+        </div>
+
+    </div>
+
+    <div class="modal modal3 hidden">
+
+        <div class="modal-content">
+
+            <div class="modal-element highscore-highscores">HIGHSCORES</div>
+            <div class="highscore-info modal-element"></div>
+            <button class="reset modal-element">Play again!</button>
+
+        </div>
+
+    </div>
+
+    <div class="overlay"></div>
+
+</body>
+
+</html>
+
