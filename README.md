@@ -27,9 +27,11 @@ Simple zombie game created for Intruduction to Web Applications course
 - The ranking includes position, nickname, score and date of entry,
 - There is a button to return to the new game,
 
+---
 
 https://user-images.githubusercontent.com/101901301/213884909-1f5650c8-91d5-4e9d-81fe-8038f327c3b6.mp4
 
+---
 
 To run server:
 
